@@ -2,7 +2,6 @@
 
 Code and results for the computational stress-test in the NeurIPS 2026 position paper
 *AI Governance Should Prioritize Control and Knowledge Boundaries Over Limiting Intelligence*.
-Repository: <https://github.com/pfizer-opensource/intelligence-knowledge-control>
 
 An epistemic agent searches an NK fitness landscape (Kauffman, 1993) by testing hypotheses. Each test costs time whether or not the hypothesis is confirmed. The simulation extends the NK landscape with noise dimensions, dependencies between hypotheses, and test costs. The model elements map onto the concepts of the paper as follows:
 
