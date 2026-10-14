@@ -1,0 +1,15 @@
+\begin{tabular}{l rrrrr ccc}
+\toprule
+ & \multicolumn{5}{c}{Mean time to final fitness $\bar{T}$} & \multicolumn{3}{c}{Multiplier vs.\ super ($\beta\!=\!0.9$)} \\
+\cmidrule(lr){2-6} \cmidrule(lr){7-9}
+Scenario & Random & Naive & Regular & Super & Oracle & Random & Naive & Regular \\
+ & $\beta\!=\!0.0009$ & $\beta\!=\!0.009$ & $\beta\!=\!0.1$ & $\beta\!=\!0.9$ & $\beta\!=\!1.0$ & & & \\
+\midrule
+0: Connecting the dots & 22.8 & 22.9 & 22.0 & 12.2 & 11.4 & $1.9\times$ & $1.9\times$ & $1.8\times$ \\
+1: Disaster & 300 & 276 & 97.8 & 13.1 & 11.7 & $22.8\times$ & $21.1\times$ & $7.5\times$ \\
+2A: Digital & 814 & 575 & 90.3 & 10.5 & 9.4 & $77.2\times$ & $54.5\times$ & $8.6\times$ \\
+2B: Dig.+choke & 927 & 732 & 146 & 51.5 & 50.3 & $18.0\times$ & $14.2\times$ & $2.8\times$ \\
+3A: Physical & 80626 & 54272 & 8753 & 979 & 902 & $82.4\times$ & $55.4\times$ & $8.9\times$ \\
+3B: Phys.+choke & 79062 & 58688 & 10093 & 1846 & 1732 & $42.8\times$ & $31.8\times$ & $5.5\times$ \\
+\bottomrule
+\end{tabular}
